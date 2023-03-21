@@ -1,0 +1,512 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Pizzas",
+      "list": [
+        {
+          "id": 1,
+          "nameFood": "Pizza Mixta",
+          "description": "Panceta, choclo, aceitunas negras y champiñón.",
+          "portion": "8 porciones",
+          "img": "https://drive.google.com/uc?export=view&id=17N_5ys9c_TpO_202XQ6dL_01jkcrZti2",
+          "price": 1020,
+          "promotions": false,
+          "delay": "15 a 20 min de demora",
+          "qualification": 0
+        },
+        {
+          "id": 2,
+          "nameFood": "Pizza cantimpalo",
+          "description": "Queso muzzarella, cantimpalo y morrón.",
+          "portion": "8 porciones",
+          "img": "https://lh3.googleusercontent.com/fife/AMPSemf-YYx7fGJKU5irz1qiNbLXdm2oKrqLgC1iXbCncmRoF1aWVaJneeAqguw-R39xu_E4E_9Qvjv-UwvahdkQdWIH21UuYooA4HgL4IZmQO5g1CBDCrssVyzu2XYAmsif-_9G59QWoFuH8GeZU3l1Sl079uYZqXekKGjmtPjYqjrVU56Dtp3JIsdK1YT2wOJSxHPfKGQ6gm8Ncgm8tYT4r8iF9ZxYFhBikEzaGWWD_gTq7qqiXc6OVRdvzH4qxYlnn5mojlnUqnuTzakL6U8T2Q5WUXXcXy29UQ9s78-xNrD33r7yY8tz2itHtK1HrgbZZwzYS_iey3Rj4GtX3F-RAs8TItQuSfrc6PiG1Sk2G2aKuIzSDEMw6AC7wg-CG-sFi-N5owHXmoFJaPMZaF9am6ZwVKkB_Ji632ELkSL42rSaQHMZmKqdQqhlQxNThK9UoPR78N19LbWfY2FUYcKhhnys7WxFYNWEditVMcP-MfnpRil68bqMe4d5z9alJPLUi3hWBTTchmvXFj_Q1QWu5prmCLOzz2s3kcAo3IGCGgQsyHukeNzk4AOdMAwbhNHq52TGkDfO8ODygVeSsz2EaYmmxyS51W4_bqlIvmZJH0TI2odzA0aq4oy-ohwZOSphS3stxWEI8sgLWC5ER8zLX6EKznIsONOXLp9fwVMGizhREwFFtbtyv17QO4N1P5G_fwwFOklx-z9nOp2qTF3MQJxRrEQuopLzPguGiM7lLbXLOp1B_0T05Gfpfo_sBEvS5yUhdBdI-m1lDsqmxCDmY4icMnep0a0EjnO8GRSAjkh_llg3roXKfzDuiK1_OeEKJcLwmmw_oU79p1f3-wlAesGSMzJ_ctBgh5Kd1IBFLinvBMCX7SDQMsHJlhZLxjWpxhNegmCtaBpP91tAnX2bgvMh7taAhJVV_ILYp_wi8uM8tRhN6MnDyO6ctdpo-OHRIHJLdQcZ8LJQP0_jtAcqTs4wUMn0KwOkRHDF4gUywpOtH4RwCvUqlnnqLkccFPz7nkJERN4kfJGI5OFlI933YEcXlm9vps3tRwhvtC2ElDXR9AU6S1Aqd3lGtjy-P4PPQ6aqfp2jTjAkaI7Bp-nuGnmUrC0XhomvsS7Pw1Tg9udjRzaMyVbZo25_2GW2B-UMN4w3vdUnYtyPCzEmKbtOSJ_9pfg8x4qGkEEnKRE2e3FMrBCIsuagOuojgC6gSt8nVOunjuewze6ZCCCw_R7fz1SkKfGEo-f8mZCOT6ChI7wYLTYwAJ1rZdPhPYwR7Pbwm9-Z3GpU4uy0IXqMfZ1cCDDJYKvqNuNyQF5OIRzGAEgr5PMsO-sP-55bTLRMLb5PQOwBePgVxb_B_vEfThxdJ1rfyFAnWL4BbraXG8vZkWxtVwWhtwW4sIXQzs4h-V_94GI_9P33Sjs8ZxNsmOnhbZL2aKFkp0LBJ0GVMzMbhVVSNRqao3zfvBdWjXQ-mrszjV7ENJPXLAfxbUFg_x6zQJujES5fTH1gT7xIQfmbo1ca2BZmePbfohYEZOw=w2056-h1896",
+          "price": 740,
+          "delay": "20 a 30 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 3,
+          "nameFood": "Pizza de rúcula",
+          "description": "Queso muzzarella, tomate cherry y rúcula.",
+          "portion": "8 porciones",
+          "img": "data:image/jpeg;base64,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",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 4,
+          "nameFood": "Pizza de choclo",
+          "description": "Queso muzzarella, salsa de choclo, aceitunas negras y tomate.",
+          "portion": "8 porciones",
+          "img": "/img/choclo.png",
+          "price": 1720,
+          "delay": "10 a 40 min de demora",
+          "promotions": true,
+          "qualification": 0
+        },
+        {
+          "id": 5,
+          "nameFood": "Pizza de mozzarella",
+          "description": "Queso mozzarella y hojas de albahaca.",
+          "portion": "8 porciones",
+          "img": "/img/muzza.png",
+          "price": 1200,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 6,
+          "nameFood": "Pizza de especial",
+          "description": "Queso muzzarella, aceitunas, panceta, champiñón y verdeo.",
+          "portion": "8 porciones",
+          "img": "/img/especial.png",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": true,
+          "qualification": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Saludables",
+      "image": "postres.jpg",
+      "list": [
+        {
+          "id": 1,
+          "nameFood": "Ensalada Primavera",
+          "description": "Papas, palta, pepino, choclo, garbanzos y zanahoria asada.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 1050,
+          "promotions": false,
+          "delay": "15 a 20 min de demora",
+          "qualification": 0
+        },
+        {
+          "id": 2,
+          "nameFood": "Ensalada mixta",
+          "description": "Huevo, rúcula, pollo, tomate, zanahoria salteada.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "20 a 30 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 3,
+          "nameFood": "Ensalada verano",
+          "description": "Mix de vegetales + carne.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 900,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 4,
+          "nameFood": "Ensalada Griega",
+          "description": "Mix de vegetales + pollo.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 800,
+          "delay": "10 a 40 min de demora",
+          "promotions": true,
+          "qualification": 0
+        },
+        {
+          "id": 5,
+          "nameFood": "Sopa de espinaca",
+          "description": "Espinaca, acelga, papas y huevo.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 6,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": true,
+          "qualification": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pastas",
+      "image": "churrasqueria.jpg",
+      "list": [
+        {
+          "id": 1,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "./public/img/1c.png",
+          "price": 840,
+          "promotions": false,
+          "delay": "15 a 20 min de demora",
+          "qualification": 0
+        },
+        {
+          "id": 2,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "20 a 30 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 3,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 4,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "10 a 40 min de demora",
+          "promotions": true,
+          "qualification": 0
+        },
+        {
+          "id": 5,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 6,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": true,
+          "qualification": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Churrasqueria",
+      "list": [
+        {
+          "id": 1,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "promotions": false,
+          "delay": "15 a 20 min de demora",
+          "qualification": 0
+        },
+        {
+          "id": 2,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "20 a 30 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 3,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 4,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "10 a 40 min de demora",
+          "promotions": true,
+          "qualification": 0
+        },
+        {
+          "id": 5,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 6,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": true,
+          "qualification": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Postres",
+      "list": [
+        {
+          "id": 1,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "promotions": false,
+          "delay": "15 a 20 min de demora",
+          "qualification": 0
+        },
+        {
+          "id": 2,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "20 a 30 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 3,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 4,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "10 a 40 min de demora",
+          "promotions": true,
+          "qualification": 0
+        },
+        {
+          "id": 5,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 6,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": true,
+          "qualification": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cafeteria",
+      "list": [
+        {
+          "id": 1,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "promotions": false,
+          "delay": "15 a 20 min de demora",
+          "qualification": 0
+        },
+        {
+          "id": 2,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "20 a 30 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 3,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 4,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "10 a 40 min de demora",
+          "promotions": true,
+          "qualification": 0
+        },
+        {
+          "id": 5,
+          "nameFood": "Ñoquis",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 740,
+          "delay": "15 a 20 min de demora",
+          "promotions": false,
+          "qualification": 0
+        },
+        {
+          "id": 6,
+          "nameFood": "Tallarines",
+          "description": "Tomate cherry, albahaca y aceitunas negras.",
+          "portion": "1 porción",
+          "img": "",
+          "price": 840,
+          "delay": "15 a 20 min de demora",
+          "promotions": true,
+          "qualification": 0
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 448,
+      "nameCategory": "pastas",
+      "idFood": "1",
+      "nameUser": "Usuario X",
+      "qualification": 5,
+      "comment": "QUE RICA ESTA LA COSA",
+      "date": "15 de Febrero 2023  13:51Hs "
+    },
+    {
+      "id": 8226,
+      "nameCategory": "pastas",
+      "idFood": "1",
+      "nameUser": "Usuario X",
+      "qualification": 1,
+      "comment": "HOla",
+      "date": "15 de Febrero 2023  13:53Hs "
+    },
+    {
+      "id": 1068,
+      "nameCategory": "pastas",
+      "idFood": "1",
+      "nameUser": "Usuario X",
+      "qualification": 5,
+      "comment": "Hola",
+      "date": "15 de Febrero 2023  13:56Hs "
+    },
+    {
+      "id": 2712,
+      "nameCategory": "pastas",
+      "idFood": "1",
+      "nameUser": "Usuario X",
+      "qualification": 5,
+      "comment": "hola ",
+      "date": "15 de Febrero 2023  13:56Hs "
+    },
+    {
+      "id": 6514,
+      "nameCategory": "postres",
+      "idFood": "2",
+      "nameUser": "Usuario   X",
+      "qualification": 5,
+      "comment": "QUE RICO",
+      "date": "15 de Febrero 2023  13:58Hs "
+    },
+    {
+      "id": 287,
+      "nameCategory": "Churrasqueria",
+      "idFood": "1",
+      "nameUser": "Usuario X",
+      "qualification": 5,
+      "comment": "hola como estas ",
+      "date": "15 de Febrero 2023  14:1Hs "
+    },
+    {
+      "id": 2680,
+      "nameCategory": "Churrasqueria",
+      "idFood": "4",
+      "nameUser": "Usuario X",
+      "qualification": 5,
+      "comment": "xcbcx",
+      "date": "15 de Febrero 2023  23:19Hs "
+    },
+    {
+      "id": 2589,
+      "nameCategory": "postres",
+      "idFood": "5",
+      "nameUser": "Usuario X",
+      "qualification": 5,
+      "comment": "sd,fdsl,fsdlf,dñk",
+      "date": "16 de Febrero 2023  0:13Hs "
+    }
+  ]
+}
